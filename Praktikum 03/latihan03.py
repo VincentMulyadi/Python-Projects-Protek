@@ -19,7 +19,7 @@ time.sleep(3)
 
 # hitung usia user
 skrg = datetime.datetime.now()
-usia = skrg.year + thnLahir
+usia = skrg.year - thnLahir
 
 #tampilkan usia
 print("Hmm...", nama, "kamu sudah", usia, "tahun ya..")
