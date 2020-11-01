@@ -9,4 +9,4 @@ waktuBC = kotaBC / speedBC
 totalWaktu = waktuAB + waktuBC
 waktuSampai = 06.00 + totalWaktu
 
-print("Pak Amir menempuh perjalan dari kota A ke kota C melalui kota B selama kurang lebih", round(totalWaktu), "jam dan sampai disana kira-kira pada jam", round(waktuSampai),".")
+print("Pak Amir menempuh perjalan dari kota A ke kota C melalui kota B selama kurang lebih", float(totalWaktu), "jam dan sampai disana kira-kira pada jam", float(waktuSampai),".")
